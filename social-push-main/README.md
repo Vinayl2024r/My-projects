@@ -42,6 +42,7 @@ self-evolution 方便维护，页面变化后可自行修复
 | <img src="https://cdn.simpleicons.org/wechat/07C160" alt="微信" width="20" height="20"/> 微信公众号 | 文章 | ✅ |
 | <img src="https://cdn.simpleicons.org/juejin/1E80FF" alt="掘金" width="20" height="20"/> 掘金 | 文章 | ✅ |
 | <img src="https://cdn.simpleicons.org/discourse/000000" alt="Linux do" width="20" height="20"/> Linux do | 帖子 | ✅ |
+| <img src="https://cdn.simpleicons.org/linkedin/0A66C2" alt="LinkedIn" width="20" height="20"/> LinkedIn | 帖子 | ✅ |
 
 more and more...
 

@@ -37,6 +37,12 @@ Add a new platform in one sentence
 | Xiaohongshu | Image Post | ✅ |
 | Xiaohongshu | Article | ✅ |
 | X (Twitter) | Tweet | ✅ |
+| Zhihu | Idea | ✅ |
+| Weibo | Post | ✅ |
+| WeChat Official Account | Article | ✅ |
+| Juejin | Article | ✅ |
+| Linux.do | Topic | ✅ |
+| LinkedIn | Post | ✅ |
 
 more and more...
 

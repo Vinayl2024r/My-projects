@@ -60,3 +60,6 @@ allowed-tools: Bash(agent-browser:*), Bash(jq:*), Bash(osascript:*) ,Read
 
 ## Linux.do
 - `LinuxDo发帖` ：查看[LinuxDo发帖](./references/LinuxDo发帖.md)发布帖子（含类别与标签选择）的 workflow
+
+## LinkedIn
+- `LinkedIn帖子` ：查看[LinkedIn帖子](./references/LinkedIn帖子.md)发布 LinkedIn 帖子（含图片/视频上传与话题标签）的 workflow
