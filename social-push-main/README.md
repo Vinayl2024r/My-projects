@@ -46,6 +46,43 @@ self-evolution 方便维护，页面变化后可自行修复
 
 more and more...
 
+---
+
+## 🤖 Viral Social Agent (Automation)
+
+> **Full auto-pilot**: researches viral posts → rewrites → PhD audit → daily digest → auto-posts
+
+See [`automation/`](./automation/) for the complete agent system.
+
+| Step | What happens |
+|------|-------------|
+| 🔍 Research | Claude searches LinkedIn, Instagram, Twitter, Facebook, Threads, YouTube, WhatsApp for top 1-3 viral posts (1M+ views) |
+| ✍️ Rewrite | Rewrites each post in a human voice, tailored per platform (char limits, tone, hashtags, format) |
+| 🔬 Audit | Dr. Maya Patel (PhD persona) scores accuracy, credibility, originality, engagement, brand safety (0-10 each) |
+| 📄 Digest | Sends you a beautiful HTML review page + optional email with all posts and audit scores |
+| ✅ Approve | You run `python main.py --approve <id>` for posts you want published |
+| 📤 Post | Agent-browser automatically posts to each platform, stops before final publish for your confirmation |
+
+### Quick Start
+
+```bash
+cd automation
+pip install -r requirements.txt
+cp .env.example .env      # add your ANTHROPIC_API_KEY
+
+python main.py --run-once        # run full pipeline now
+# or run each stage manually:
+python main.py --research
+python main.py --rewrite
+python main.py --audit
+python main.py --digest          # opens HTML review page
+python main.py --approve <id>    # approve posts you like
+python main.py --post            # post approved content
+
+# Daily schedule (runs at 06:00 by default):
+python main.py --schedule
+```
+
 
 ## 📦 安装
 
