@@ -12,10 +12,7 @@ MODEL = "claude-sonnet-4-6"
 
 # Topics to research viral posts about (edit freely)
 RESEARCH_TOPICS = [
-    "artificial intelligence",
-    "entrepreneurship",
-    "productivity",
-    "tech industry",
+    "AI agents vs SaaS",
 ]
 
 POSTS_PER_PLATFORM = 3  # 1-3 viral posts to find per platform
